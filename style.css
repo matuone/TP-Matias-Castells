@@ -17,3 +17,8 @@
 .chat {
   background-color: blueviolet;
 }
+
+.contact-list img {
+  width: 50px;
+  height: auto;
+}
