@@ -21,6 +21,8 @@
 .contact-list img {
   width: 50px;
   height: auto;
+  display: block;
+  margin-bottom: 15px;
 }
 
 .contact {
