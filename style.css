@@ -36,3 +36,9 @@
   color: rgb(119, 119, 119);
   font-weight: bold;
 }
+
+.contact-list h4 {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
