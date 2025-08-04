@@ -47,6 +47,15 @@
   content: "●";
   font-size: 14px;
   vertical-align: middle;
-  margin-right: 6px;
+  margin-right: 3px;
   color: green;
+
+}
+
+.status-offline::before {
+  content: "●";
+  font-size: 14px;
+  vertical-align: middle;
+  margin-right: 3px;
+  color: rgb(175, 2, 2);
 }
