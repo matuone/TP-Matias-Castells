@@ -87,7 +87,6 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  /*color momentaneo */
   background-color: rgb(255, 255, 255);
 }
 
@@ -100,6 +99,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+
 
 }
 
@@ -114,6 +114,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+}
+
+.chat-header-actions p {
+  font-size: 20px;
 }
 
 /* background momentaneo */
