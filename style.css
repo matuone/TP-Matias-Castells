@@ -126,6 +126,13 @@
   margin-left: -3px;
 }
 
+.chat-actions button {
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
 
 
 /* background momentaneo */
