@@ -93,22 +93,23 @@
 
 .layout {
   display: flex;
-  height: 70px;
+  height: 6vh;
 }
 
 .chat-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   padding: 10px;
+  flex-wrap: wrap;
 
 }
 
 .chat-actions {
   display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  padding: 10px;
+  gap: 13px;
+
 }
 
 /* background momentaneo */
