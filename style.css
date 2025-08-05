@@ -93,8 +93,16 @@
 
 section {
   display: flex;
-  height: 100px;
+  height: 70px;
 }
 
+.chat-header {
+  display: flex;
+}
+
+/* background momentaneo */
+.chat-messages {
+  background-color: aqua;
+}
 
 /* no olvidarme del responsive desing */
