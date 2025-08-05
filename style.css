@@ -131,8 +131,13 @@
   border: none;
   font-size: 22px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
+.chat-actions button:hover {
+  background-color: #909090;
+  border-radius: 3px;
+}
 
 
 /* background momentaneo */
