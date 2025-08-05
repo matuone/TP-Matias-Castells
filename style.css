@@ -80,3 +80,10 @@
   font-size: 15px;
 
 }
+
+.chat img {
+  width: 50px;
+  height: auto;
+}
+
+/* no olvidarme del responsive desing */
