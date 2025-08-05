@@ -88,6 +88,7 @@
   flex: 1;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
+
 }
 
 .layout {
@@ -115,6 +116,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  border-bottom: 1px solid #ccc;
+
+
 }
 
 .chat-header-actions p {
@@ -126,7 +130,7 @@
 
 /* background momentaneo */
 .chat-messages {
-  background-color: aqua;
+  background-color: rgb(56, 235, 255);
 }
 
 /* no olvidarme del responsive desing */
