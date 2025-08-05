@@ -132,6 +132,12 @@
   font-size: 22px;
   cursor: pointer;
   transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
 }
 
 .chat-actions button:hover {
@@ -139,6 +145,10 @@
   border-radius: 3px;
 }
 
+.camera {
+
+  margin-top: -4px;
+}
 
 /* background momentaneo */
 .chat-messages {
