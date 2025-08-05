@@ -98,7 +98,8 @@
 .chat-header {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+
 
 
 }
@@ -118,7 +119,10 @@
 
 .chat-header-actions p {
   font-size: 20px;
+  margin-left: -3px;
 }
+
+
 
 /* background momentaneo */
 .chat-messages {
