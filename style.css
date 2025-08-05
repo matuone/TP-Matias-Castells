@@ -92,7 +92,7 @@
 
 .layout {
   display: flex;
-  height: 6vh;
+  height: 100vh;
 }
 
 .chat-header {
