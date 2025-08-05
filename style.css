@@ -156,7 +156,7 @@ body {
 
 /* background momentaneo */
 .chat-messages {
-  background-color: rgb(56, 235, 255);
+  background-color: rgba(244, 245, 246, 0.734);
   flex: 1;
   overflow-y: auto;
 
