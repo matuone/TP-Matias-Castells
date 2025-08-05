@@ -91,7 +91,7 @@
   background-color: blueviolet;
 }
 
-section {
+.layout {
   display: flex;
   height: 70px;
 }
@@ -102,6 +102,13 @@ section {
   gap: 10px;
   padding: 10px;
 
+}
+
+.chat-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
 }
 
 /* background momentaneo */
