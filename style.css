@@ -154,12 +154,22 @@ body {
   margin-top: -4px;
 }
 
-/* background momentaneo */
+
 .chat-messages {
+  display: flex;
   background-color: rgba(244, 245, 246, 0.734);
   flex: 1;
-  overflow-y: auto;
+  flex-direction: column;
 
+}
+
+.chat-messages .sent {
+  background-color: aqua;
+  align-self: flex-end;
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 60%;
+  margin: 6px 12px
 }
 
 /* no olvidarme del responsive desing */
