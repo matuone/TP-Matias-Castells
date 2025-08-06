@@ -190,12 +190,16 @@ body {
 }
 
 
-.chat-messages .received {
-
+.received {
+  align-self: flex-start;
   background-color: yellow;
   /*momentaneo */
+}
 
-
+.timestamp {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
 }
 
 /* no olvidarme del responsive desing */
