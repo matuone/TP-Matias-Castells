@@ -215,5 +215,19 @@ body {
 }
 
 
+.chat-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-footer input {
+  flex: 1;
+  max-width: 100%;
+  padding: 10px 14px;
+  font-size: 10px;
+
+
+}
 
 /* no olvidarme del responsive desing */
