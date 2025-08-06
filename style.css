@@ -277,10 +277,26 @@ body {
 @media (max-width: 480px) {
   .sidebar {
     display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+    flex-direction: column;
+  }
+
+  #toggle-sidebar:checked~.layout .sidebar {
+    display: flex;
   }
 
   .chat {
     width: 100%;
+  }
+
+  .toggle-btn {
+    display: block;
   }
 
   .chat-header-actions {
