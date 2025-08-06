@@ -262,4 +262,4 @@ body {
   border-radius: 3px;
 }
 
-/* no olvidarme del responsive desing */
+@media (max-width: 480px)
