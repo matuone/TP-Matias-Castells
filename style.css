@@ -175,7 +175,7 @@ body {
 }
 
 .message.sent {
-  background-color: aqua;
+  background-color: rgb(232, 243, 247);
   align-self: flex-end;
   padding: 8px 12px;
   border-radius: 12px;
@@ -191,7 +191,7 @@ body {
 
 .message.received {
   align-self: flex-start;
-  background-color: yellow;
+  background-color: rgb(241, 241, 241);
   padding: 8px 12px;
   border-radius: 12px;
   max-width: 70%;
