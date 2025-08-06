@@ -174,9 +174,9 @@ body {
 
 }
 
-.chat-messages .sent {
+.sent {
   background-color: aqua;
-  /*momentaneo */
+  align-items: flex-end;
 
 }
 
