@@ -174,25 +174,29 @@ body {
 
 }
 
-.message .sent {
+.message.sent {
   background-color: aqua;
-  align-items: flex-end;
+  align-self: flex-end;
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 70%;
 
 }
 
 .message p {
-  padding: 6px 10px;
-  border-radius: 12px;
-  max-width: 70%;
-  display: inline-block;
-  word-wrap: break-word;
   margin-bottom: 4px;
+  word-wrap: break-word;
 }
 
 
-.message.received p {
+.message.received {
   align-self: flex-start;
   background-color: yellow;
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 70%;
+
+
   /*momentaneo */
 }
 
@@ -202,8 +206,6 @@ body {
   margin: 0;
 }
 
-.message.sent p {
-  background-color: aqua;
-}
+
 
 /* no olvidarme del responsive desing */
