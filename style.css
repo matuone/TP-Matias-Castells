@@ -267,3 +267,7 @@ body {
     display: none;
   }
 }
+
+.chat {
+  width: 100%;
+}
