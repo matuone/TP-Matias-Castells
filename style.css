@@ -237,9 +237,15 @@ body {
 
 .chat-footer button {
   font-size: 23px;
-
   background-color: transparent;
   border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.chat-footer button:hover {
+  background-color: #909090;
+  border-radius: 3px;
 }
 
 /* no olvidarme del responsive desing */
