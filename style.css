@@ -41,6 +41,7 @@ body {
   gap: 14px;
   cursor: pointer;
   transition: background-color 0.2s ease;
+  border-radius: 6px;
 }
 
 .contact:hover {
