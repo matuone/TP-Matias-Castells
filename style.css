@@ -174,7 +174,7 @@ body {
 
 }
 
-.sent {
+.message .sent {
   background-color: aqua;
   align-items: flex-end;
 
@@ -190,7 +190,7 @@ body {
 }
 
 
-.received {
+.message.received p {
   align-self: flex-start;
   background-color: yellow;
   /*momentaneo */
@@ -200,6 +200,10 @@ body {
   font-size: 12px;
   color: #666;
   margin: 0;
+}
+
+.message.sent p {
+  background-color: aqua;
 }
 
 /* no olvidarme del responsive desing */
