@@ -39,6 +39,12 @@ body {
   display: flex;
   align-items: center;
   gap: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact:hover {
+  background-color: #dcdcdc;
 }
 
 .contact-list p {
