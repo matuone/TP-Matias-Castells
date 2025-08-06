@@ -33,6 +33,7 @@ body {
   height: auto;
   display: block;
   margin-bottom: 15px;
+  transform: translateY(10px);
 }
 
 .contact {
@@ -59,7 +60,7 @@ body {
   font-weight: bold;
   margin-top: 0;
   line-height: 1;
-  transform: translateY(-13px);
+  transform: translateY(-6px);
 
 }
 
@@ -67,7 +68,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   letter-spacing: -1px;
-  transform: translateY(-13px);
+  transform: translateY(-6px);
   line-height: 1.1;
   margin: 0;
 }
