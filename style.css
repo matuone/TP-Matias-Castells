@@ -262,6 +262,19 @@ body {
   border-radius: 3px;
 }
 
+.toggle-btn {
+  /*display: none;*/
+  /*quitar luego de hacer el responsive*/
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
 @media (max-width: 480px) {
   .sidebar {
     display: none;
