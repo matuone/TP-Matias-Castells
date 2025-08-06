@@ -165,11 +165,24 @@ body {
 
 .chat-messages .sent {
   background-color: aqua;
+  /*momentaneo */
   align-self: flex-end;
   padding: 8px 12px;
   border-radius: 12px;
   max-width: 60%;
   margin: 6px 12px
+}
+
+.chat-messages .received {
+  align-items: flex-start;
+  background-color: yellow;
+  /*momentaneo */
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 40%;
+  margin: 6px 12px;
+  display: inline-block;
+
 }
 
 /* no olvidarme del responsive desing */
