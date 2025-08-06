@@ -263,8 +263,7 @@ body {
 }
 
 .toggle-btn {
-  /*display: none;*/
-  /*quitar luego de hacer el responsive*/
+  display: none;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -312,4 +311,6 @@ body {
     width: 36px;
     height: 36px;
   }
+
+
 }
