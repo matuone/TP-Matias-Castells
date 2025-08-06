@@ -42,6 +42,11 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease;
   border-radius: 6px;
+  overflow: hidden;
+  padding: 23px 12px 10px 12px;
+  margin-top: -13px;
+
+
 }
 
 .contact:hover {
