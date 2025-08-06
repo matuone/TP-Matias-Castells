@@ -262,4 +262,8 @@ body {
   border-radius: 3px;
 }
 
-@media (max-width: 480px)
+@media (max-width: 480px) {
+  .sidebar {
+    display: none;
+  }
+}
